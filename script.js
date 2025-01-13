@@ -92,16 +92,26 @@
 // divHead.insertAdjacentElement('beforeend',para4)
  
 
-//  const divHead = document.querySelector('#divHead')
+ const divHead = document.querySelector('#divHead')
 
-// divHead.style.backgroundColor='aqua';
-// divHead.style.color='blue';
-// divHead.style.height='100px';
-// divHead.style.width='100px';
-// divHead.style.borderRadius = '50px';
+divHead.style.backgroundColor='aqua';
+divHead.style.color='blue';
+divHead.style.height='100px';
+divHead.style.width='100px';
+divHead.style.borderRadius = '50px';
 // divHead.style.paddingTop= '20px';
-// divHead.style.boxSizing= 'border-Box';
+divHead.style.boxSizing= 'border-Box';
 // divHead.style.textAlign= 'center';
+divHead.style.display= 'flex';
+divHead.style.justifyContent= 'center';
+divHead.style.alignItems= 'center';
+
+
+divHead.style.border = '2px solid white';
+divHead.style.boxShadow = '2px 2px 10px red';
+
+ 
+
 
 
 // divHead.style.cssText = 'background-color:red; color:white; height:200px; width:100px;'
