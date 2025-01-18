@@ -1,3 +1,5 @@
+// .................1. Accessing and Selecting DOM Elements.....................................
+
 // const headText = document.getElementById('headText');
 // headText.remove()
 
@@ -63,10 +65,16 @@
 
 // const paraClass = document.querySelectorAll('.paraClass')
 
+
+
+
+
 // // divHead[0].removeChild(paraClass[0])
 
 // paraClass[2].remove()
 // paraClass[1].remove()
+
+
 
 //   const para4 = document.createElement('p')
 
@@ -84,6 +92,10 @@
 // divHead.insertAdjacentElement('beforeend',para4)
 
 //  const divHead = document.querySelector('#divHead')
+
+
+//.............4. Adding Style to HTML content by DOM...................
+
 
 // divHead.style.backgroundColor='aqua';
 // divHead.style.color='blue';
@@ -117,6 +129,12 @@
 
 // divHead.style.cssText = 'background-color:red; height:100px; width:100px; border:2px solid yellow;'
 
+
+
+
+
+//..................... Adding Class to html element.............................
+
 // const divHead = document.querySelector('#divHead')
 // divHead.classList.add('active');
 
@@ -128,6 +146,9 @@
 // }
 
 // const BtnClick = document.querySelector("#BtnClick");
+
+
+//............................. Event Basics:................................
 
 // BtnClick.addEventListener("click", () => {
 //   const divHead = document.querySelector("#divHead");
@@ -142,6 +163,7 @@
 
 
 
+//.................. pop project.............................
 
 const banner = document.querySelector("#banner");
 
