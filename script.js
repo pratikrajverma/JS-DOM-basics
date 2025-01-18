@@ -142,3 +142,31 @@
 
 
 
+
+const banner = document.querySelector("#banner");
+
+const car = document.createElement("div");
+const para = document.createElement("p");
+const cross = document.createElement("button");
+
+function createbanner() {
+    cross.textContent = "x";
+
+  para.textContent = "Book a test Drive";
+  car.style.cssText = 'border: 2px solid; background-color:lime; display:flex; justify-content:space-between; align-items:start';
+
+  car.appendChild(para);
+  car.appendChild(cross);
+
+  banner.appendChild(car);
+
+  cross.addEventListener("click", () => {
+    banner.removeChild(car);
+  });
+}
+
+
+
+  setInterval(() => {
+    createbanner()
+  }, 2000);
